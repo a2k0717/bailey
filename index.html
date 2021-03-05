@@ -43,13 +43,8 @@
 
   <!-- Navigation -->
   <nav class="navbar navbar-light bg-light static-top">
-    <div class="row">
+    <div class="container">
       <a class="navbar-brand" href="#">Hello World! From Bailey</a>
-      <div class="col-lg-6 h-100 text-center text-lg-right my-auto">
-        <a href="https://www.instagram.com/__bailey_doodette/">
-          <i class="fab fa-instagram fa-2x fa-fw"></i>
-        </a>
-      </div>
     </div>
   </nav>
 
@@ -129,8 +124,12 @@
     <div class="container">
       <div class="row">
         <div class="col-xl-9 mx-auto">
-          <h2 class="mb-4">Do you think Bailey is a good pup!?</h2>
-          <button onclick="fbq('track', 'Purchase', {currency: 'USD', value: 30.00});" id="purchaseButton" type="button">Yes!</button>
+          <h2 class="mb-4">Follow Bailey's adventures on Instagram!</h2>
+          <div class="col-lg-6 h-100 text-center text-lg-right my-auto">
+            <a onclick="fbq('trackCustom', 'ClickThroughInstagram');" href="https://www.instagram.com/__bailey_doodette/">
+              <i class="fab fa-instagram fa-2x fa-fw"></i>
+            </a>
+          </div>
         </div>
       </div>
     </div>
